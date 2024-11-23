@@ -1,15 +1,15 @@
 {
-  "name": "notes-app-back-end",
+  "name": "submission",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
-    "start": "nodemon ./src/server.js",
-    "lint": "eslint ./src"
+    "start": "node ./src/server.js",
+    "lint": "eslint ./"
   },
   "keywords": [],
-  "author": "",
+  "author": "Misbachul Huda",
   "license": "ISC",
-  "description": "",
+  "description": "Submission for Dicoding",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "eslint": "^9.14.0",
